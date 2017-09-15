@@ -123,6 +123,33 @@ practice_of_data_structure/fast:
 	$(MAKE) -f CMakeFiles/practice_of_data_structure.dir/build.make CMakeFiles/practice_of_data_structure.dir/build
 .PHONY : practice_of_data_structure/fast
 
+liam.o: liam.cpp.o
+
+.PHONY : liam.o
+
+# target to build an object file
+liam.cpp.o:
+	$(MAKE) -f CMakeFiles/practice_of_data_structure.dir/build.make CMakeFiles/practice_of_data_structure.dir/liam.cpp.o
+.PHONY : liam.cpp.o
+
+liam.i: liam.cpp.i
+
+.PHONY : liam.i
+
+# target to preprocess a source file
+liam.cpp.i:
+	$(MAKE) -f CMakeFiles/practice_of_data_structure.dir/build.make CMakeFiles/practice_of_data_structure.dir/liam.cpp.i
+.PHONY : liam.cpp.i
+
+liam.s: liam.cpp.s
+
+.PHONY : liam.s
+
+# target to generate assembly for a file
+liam.cpp.s:
+	$(MAKE) -f CMakeFiles/practice_of_data_structure.dir/build.make CMakeFiles/practice_of_data_structure.dir/liam.cpp.s
+.PHONY : liam.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +177,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/practice_of_data_structure.dir/build.make CMakeFiles/practice_of_data_structure.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+operator_overloading.o: operator_overloading.cpp.o
+
+.PHONY : operator_overloading.o
+
+# target to build an object file
+operator_overloading.cpp.o:
+	$(MAKE) -f CMakeFiles/practice_of_data_structure.dir/build.make CMakeFiles/practice_of_data_structure.dir/operator_overloading.cpp.o
+.PHONY : operator_overloading.cpp.o
+
+operator_overloading.i: operator_overloading.cpp.i
+
+.PHONY : operator_overloading.i
+
+# target to preprocess a source file
+operator_overloading.cpp.i:
+	$(MAKE) -f CMakeFiles/practice_of_data_structure.dir/build.make CMakeFiles/practice_of_data_structure.dir/operator_overloading.cpp.i
+.PHONY : operator_overloading.cpp.i
+
+operator_overloading.s: operator_overloading.cpp.s
+
+.PHONY : operator_overloading.s
+
+# target to generate assembly for a file
+operator_overloading.cpp.s:
+	$(MAKE) -f CMakeFiles/practice_of_data_structure.dir/build.make CMakeFiles/practice_of_data_structure.dir/operator_overloading.cpp.s
+.PHONY : operator_overloading.cpp.s
+
+sparce_vector.o: sparce_vector.cpp.o
+
+.PHONY : sparce_vector.o
+
+# target to build an object file
+sparce_vector.cpp.o:
+	$(MAKE) -f CMakeFiles/practice_of_data_structure.dir/build.make CMakeFiles/practice_of_data_structure.dir/sparce_vector.cpp.o
+.PHONY : sparce_vector.cpp.o
+
+sparce_vector.i: sparce_vector.cpp.i
+
+.PHONY : sparce_vector.i
+
+# target to preprocess a source file
+sparce_vector.cpp.i:
+	$(MAKE) -f CMakeFiles/practice_of_data_structure.dir/build.make CMakeFiles/practice_of_data_structure.dir/sparce_vector.cpp.i
+.PHONY : sparce_vector.cpp.i
+
+sparce_vector.s: sparce_vector.cpp.s
+
+.PHONY : sparce_vector.s
+
+# target to generate assembly for a file
+sparce_vector.cpp.s:
+	$(MAKE) -f CMakeFiles/practice_of_data_structure.dir/build.make CMakeFiles/practice_of_data_structure.dir/sparce_vector.cpp.s
+.PHONY : sparce_vector.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... practice_of_data_structure"
+	@echo "... liam.o"
+	@echo "... liam.i"
+	@echo "... liam.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... operator_overloading.o"
+	@echo "... operator_overloading.i"
+	@echo "... operator_overloading.s"
+	@echo "... sparce_vector.o"
+	@echo "... sparce_vector.i"
+	@echo "... sparce_vector.s"
 .PHONY : help
 
 

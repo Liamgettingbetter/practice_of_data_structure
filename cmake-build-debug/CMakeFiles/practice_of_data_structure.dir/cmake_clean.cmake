@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/practice_of_data_structure.dir/main.cpp.o"
+  "CMakeFiles/practice_of_data_structure.dir/liam.cpp.o"
+  "CMakeFiles/practice_of_data_structure.dir/operator_overloading.cpp.o"
+  "CMakeFiles/practice_of_data_structure.dir/sparce_vector.cpp.o"
   "practice_of_data_structure.pdb"
   "practice_of_data_structure"
 )

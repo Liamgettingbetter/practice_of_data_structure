@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/Volumes/Archive/Cpp/practice_of_data_structure/liam.cpp
+
 /Volumes/Archive/Cpp/practice_of_data_structure/main.cpp
 iostream
 -
 vector
+-
+
+/Volumes/Archive/Cpp/practice_of_data_structure/operator_overloading.cpp
+iostream
+-
+string
 -
 

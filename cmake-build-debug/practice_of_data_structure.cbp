@@ -80,7 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Volumes/Archive/Cpp/practice_of_data_structure/liam.cpp">
+			<Option target="practice_of_data_structure"/>
+		</Unit>
 		<Unit filename="/Volumes/Archive/Cpp/practice_of_data_structure/main.cpp">
+			<Option target="practice_of_data_structure"/>
+		</Unit>
+		<Unit filename="/Volumes/Archive/Cpp/practice_of_data_structure/operator_overloading.cpp">
+			<Option target="practice_of_data_structure"/>
+		</Unit>
+		<Unit filename="/Volumes/Archive/Cpp/practice_of_data_structure/sparce_vector.cpp">
 			<Option target="practice_of_data_structure"/>
 		</Unit>
 		<Unit filename="/Volumes/Archive/Cpp/practice_of_data_structure/CMakeLists.txt">
