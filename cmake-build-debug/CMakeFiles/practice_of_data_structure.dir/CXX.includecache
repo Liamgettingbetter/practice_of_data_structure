@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/Volumes/Archive/Cpp/practice_of_data_structure/homework3.cpp
+iostream
+-
+operator_overloading.cpp
+/Volumes/Archive/Cpp/practice_of_data_structure/operator_overloading.cpp
+string
+-
+list
+-
+map
+-
+
 /Volumes/Archive/Cpp/practice_of_data_structure/liam.cpp
 
 /Volumes/Archive/Cpp/practice_of_data_structure/main.cpp
@@ -18,5 +30,13 @@ vector
 iostream
 -
 string
+-
+list
+-
+map
+-
+
+/Volumes/Archive/Cpp/practice_of_data_structure/sparse_vector.cpp
+iostream
 -
 
